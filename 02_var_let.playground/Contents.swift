@@ -37,3 +37,14 @@ print("El numero de login actual es: \(currentLoginAttempt) de un total disponib
 
 // Also allows to add parameters like separator & terminator.
 print(1,2,3,4,5, separator: "/", terminator: "\n")
+
+
+// This is how you write comments in Swift, but is limited to one line
+
+/*
+  This is the other option to write comments in Swift, in this case can be a multiline
+ */
+
+/* Swift has a curious, fun characteristic thing about multiline comments
+  /* But Swift allows to have nested commentaries*/
+For example, this is the common multiline commentary */
