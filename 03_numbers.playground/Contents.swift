@@ -39,3 +39,21 @@ let maxA32Value = Int32.max
 // And finally for the 64 bits type
 let minA64Value = Int64.min
 let maxA64Value = Int64.max
+
+/*
+ Floats & Doubles
+ */
+
+// Floats
+
+// The name of a float number comes from the scientific notation when writting numbers. This part, called mantisa,  it's the radix point, decimal of it. It's refered as "can float" anywhere around the digits of the number. The position is given by the exponent.
+
+let f1: Float = 3.14159265
+let f2: Double = 3.14159265
+
+// The difference between this two data types for decimal numbers is that float allows up to a certain amount of figures, then it rounds up. In comparison double does not do this, giving you the option to have a more precise decimal number.
+
+//Type safe
+let meaningOfLife =  42 // Int
+let pi = 3.14159 // Double
+let anotherPi = 3 + 0.14159 // Double
